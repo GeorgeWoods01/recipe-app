@@ -46,7 +46,6 @@ function App() {
           </div>
           <div className="bottom">
             <div className="ingredients">
-              {/* make iteration with .map maybe */}
               {meal ? <p className='bold'>{meal.strIngredient1}</p> : null}
               {meal ? <p>{meal.strMeasure1}</p> : null}
               {meal ? <p className='bold'>{meal.strIngredient2}</p> : null}
