@@ -29,7 +29,7 @@ function App() {
         value={recipe}
         onChange={event => setRecipe(event.target.value)}
         onKeyPress={searchRecipe}
-        placeholder='Search by Name'
+        placeholder='Write something tasty'
         type="text"
         />
       </div>
