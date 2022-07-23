@@ -46,6 +46,7 @@ function App() {
           </div>
           <div className="bottom">
             <div className="ingredients">
+              {/* theres gotta be a better way to do this */}
               {meal ? <p className='bold'>{meal.strIngredient1}</p> : null}
               {meal ? <p>{meal.strMeasure1}</p> : null}
               {meal ? <p className='bold'>{meal.strIngredient2}</p> : null}
